@@ -214,3 +214,62 @@
 //      case 4 : console.log("Autumn"); break;
 //      default : console.log("invalid Season"); 
 //  }
+/*Write a program to check whether a number is positive, negative, or zero.*/
+
+// let num = 0 ;
+// if (num > 0){
+//     console.log(num ,"is positive")
+// }else if(num < 0) {
+//     console.log(num ,"is negative")
+// }else{
+//     console.log(num ,"is zero")
+// }
+
+// Write a program to check whether a person is eligible to vote.
+
+// let age = 2 ;
+// if (age >=18 ) {
+//     console.log(age,"years old person is eligible to vote")
+// } else {
+//     console.log(age,"years old person is not eligible to vote")
+// }
+
+// Write a program to find the greater of two numbers.
+
+// let a = 45;
+// let b = 45;
+// if (a > b ) {
+//     console.log( a, "a is greater then b")
+// } else if(b>a) {
+//     console.log(b , "b is greater then a")
+// }else{
+//     console.log("both a and b are equel")
+// }
+
+// Write a program to check whether a person is:
+// Under 13 → Child
+// 13–19 → Teenager
+// 20–59 → Adult
+// 60+ → Senior
+
+// let age = 32;
+// let person;
+
+// if (age<13) {
+//     person = "child";
+// }else if(age>=13 && age<=19){
+//     person = "Teenager";
+// }else if (age>=20 && age<=59){
+//      person = "Adult";
+// }else{
+//     person = "Senior"
+// }
+
+//     console.log(person)
+// let num = 30 
+//  if (num%3 === 0 && num%5 ===0) {
+//     console.log("yes both are devided")
+//  } else {
+    
+//  }
+
