@@ -25,195 +25,171 @@
   // code to repeat
 //} while (condition);
 
+// 🟢 Beginner Level
 
- //⭐ Bonus: Break & Continue in Loops
+//.. 1.  1 se 10 tak numbers print karo.
 
-//✔ continue → skips the current iteration
-//for (let i = 1; i <= 5; i++) {
-  //if (i === 3) continue;
- // console.log(i); }
-
- //✔ break → stops the entire loop
- //for (let i = 1; i <= 5; i++) {
- // if (i === 3) break;
- // console.log(i);  }
-
-//question related to loops
-//1️⃣ Print numbers from 1 to 10
-
-// for (let i=1 ; i <= 10 ; i++){
-//     console.log(i);
-// }
-
-//2️⃣ Print even numbers from 1 to 20
-
-// for (let i=1 ; i <= 20 ; i++){
-//     if(i % 2 === 0){
-//         console.log(i);
-//     }
-// }
-
-//3️⃣ Print table of 5
-
-// for (let i = 1; i <= 10; i++) {
-//   console.log(`5 x ${i} = ${5 * i}`);
-// }
-
-
-//4️⃣ Sum of numbers from 1 to 100
-// let sum = 0;
-// let i=1;
-// while (i<=10){
-//   sum += i;
-//   i++;
-// }
-//   console.log("sum is " + sum)
-
-//5️⃣ Factorial of a number
-
-// let num =5;
-// let facto = 1;
-
-// for(let i=1 ; i<=5 ; i++){
-//   facto *= i;
-// }
-
-// console.log("factorial is " + facto )
-
-//6️⃣ Reverse counting 10 to 1
-// for (let i=10 ; i>=1 ; i--){
-//  console.log(i);
-// }
-
-//7️⃣Print pattern using loops
-// for (let i=1 ; i<=4 ; i++){
-//   let pattern = "";
-//   for(let j=1 ; j<=i ; j++){
-//     pattern += "*";
-//   }
-//   console.log(pattern);
-// }
-
-// for(let count=1; count<=5; count++){
-//   console.log("monika");
-// }
-
-// let sum = 0;
-// for(let i=1; i<=5; i++){
-//   sum+=i;
-// }
-// console.log(sum)
-// let i=1;
-// while(i<=5){
-//     console.log("i", i);
-//     i++;
-// }
-
-// let j=20;
-// do{
-//   console.log("monika")
-//   j++
-// }while(j<=10);
-
-// let str = "javascript";
-// let size = 0;
-// for(let val of str){
-//   console.log("val",val)
-//   size++;
-
-// }
-// console.log(size);
-
-
-// let student= {
-//   name:"monika",
-//   age:23,
-//   cgpa:6,
-//   isPass:true
-// };
-// for (let i in student){
-//   console.log(i , student[i]);
-// }
-
-// for(let i=0; i<=100; i++){
-//    if(i%2 !== 0){
-//      console.log(i)
-//    }
-   
-// }
-
-
-// let userNum =prompt("guss the number");
-// for (let num=70; userNum!=num;){
-//   if(userNum<num){
-//     userNum = prompt("number is less you guss")
-//   }else if(userNum>num){
-//      userNum = prompt("number is greater you guss")
-//   }
-// }
-//   console.log("corect number")
-
-// for(let i=10; i>=1; i--){
+// for (let i=1; i<=10; i++){
 //   console.log(i)
 // }
 
-// for(let i=1; i<=20; i++){
-//    if(i%2===0){
-//     console.log(i)
-//    }
-  
-// }
+// 2.10 se 1 tak reverse numbers print karo.
 
-// for(let i=1; i<=20; i++){
-//    if(i%2!==0){
-//     console.log(i)
-//    }
-  
-// }
+//  for (let i=10; i>=1; i--){
+//   console.log(i)
+//   }
 
-
+//3. 1 se 100 tak numbers ka sum find karo.
 // let sum = 0;
-// for(let i=1; i<=100; i++){
-//   sum += i
-// }
-
-// console.log(sum);
-// let num = 5
-
-// for(let i=1 ; i<=10 ; i++){
+// for (let i=1; i<=100; i++){
+//   sum = sum+i
  
-//   console.log("5 *",i , "=",num*i)
+// }
+// console.log(sum)
+
+// 4.Kisi number ka table print karo.
+// Example: 5 → 5, 10, 15 ... 50
+
+// let mult = 12;
+// for (let i=1 ; i<=10 ; i++){
+ 
+//   console.log("12 *" ,i, "=" ,mult*i);
 // }
 
+// 5.  1 se 50 tak even numbers print karo.
 
-// let num = 1
-
-// for(let i=1 ; i<=5 ; i++){
-//  num = num*i
-  
+// for (let i=1 ; i<=50 ; i++){
+//     if(i%2 === 0){
+//       console.log(i);
+//     }
 // }
-// console.log(num)
 
-// for(let i=1; i<=50;i++){
+// 6. 1 se 50 tak odd numbers print karo.
+
+// for (let i=1 ; i<=50 ; i++){
+//     if(i%2 !== 0){
+//       console.log(i);
+//     }
+// }
+
+// 7.  1 se 100 tak 3 ke multiples print karo.
+
+
+// for (let i=1 ; i<=100 ; i++){
 //   if(i%3===0){
 //     console.log(i)
 //   }
-  
 // }
 
-let num = Number(prompt("Enter a number: "));
-let isPrime = true;
-if(num<=1){
-  isPrime =false;
-}
-for(let i=2;i<num;i++){
-   if(num%i ===0){
-    isPrime = false;
-    break;
-   }
-}
-if(isPrime){
-  console.log(num + "is Prime number")
-}else{
-  console.log(num + "is not Prime number")
-}
+// 8. Kisi number ka factorial find karo.
+// Example: 5 → 120
+
+// let fact = 1;
+// for (let i=1; i<=4; i++){
+//  fact=i*fact
+
+// }
+// console.log(fact)
+
+// 9. 1 se 100 tak numbers mein se 5 se divisible numbers print karo.
+
+// for (let i=1; i<=100; i++){
+//   if(i%5 === 0){
+//     console.log(i)
+//   }
+// }
+
+// 10.  1 se 100 tak numbers ka sum find karo jo even hain.
+// let sum = 0;
+// for (let i=1; i<=100; i++){
+//   if(i%2 === 0){
+//     sum += i;
+    
+//   }
+// }
+// console.log(sum)
+
+// 11. . 1 se 20 tak numbers print karo, lekin sirf 4 ke multiples.
+
+// for(let i=4; i<=20; i +=4){
+//   console.log(i);
+// }
+
+// 12. 1 se 50 tak numbers print karo jo 7 se divisible hain.
+
+// for(let i=7; i<=50; i +=7){
+//   console.log(i);
+// }
+
+// 13. 1 se 10 tak numbers ka square print karo.
+ 
+// for(let i=1; i<=10; i++){
+
+//   console.log(i*i);
+// }
+  
+// 14. 1 se 10 tak numbers ka cube print karo.
+ 
+// for(let i=1; i<=10; i++){
+
+//   console.log(i*i*i);
+// }
+
+// 15. 1 se 20 tak even numbers ka sum find karo.
+// let sum=0;
+// for (let i=2 ; i<=20 ; i+=2){
+//   sum+=i;
+  
+// }
+// console.log(sum)
+
+// 16. 1 se 20 tak odd numbers ka sum find karo.
+
+// let sum=0;
+// for (let i=1 ; i<=20 ; i+=2){
+//   sum+=i;
+  
+// }
+// console.log(sum)
+
+// 17. Kisi number ke factors print karo.
+
+// Example:
+
+// Input: 10
+//  Output: 1 2 5 10
+// let num =10;
+// for(let i=1; i<=10; i++){
+//   if(num%i===0){
+//     console.log(i)
+//   }
+// }
+
+// 18. 1 se 50 tak numbers mein 10 se divisible numbers count karo.
+
+// Output:
+
+// // 5
+// let count =0;
+
+// for(let i=1; i<=50; i++){
+//   if(i%10===0){
+//     count++
+   
+//   }
+// }
+//  console.log(count)
+
+// 19. 1 se 100 tak 2 aur 3 dono se divisible numbers print karo.
+
+// for(let i=1; i<=100; i++){
+//  if(i%2===0  && i%3===0 ){
+//   console.log(i)
+//  }
+// }
+
+// 20. Kisi number ka table reverse order mein print karo.
+// let table =5;
+// for(let i=10; i>=1; i--){
+// console.log("5 * ", i , "= ",table*i);
+// }
