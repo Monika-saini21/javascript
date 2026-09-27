@@ -227,13 +227,72 @@
 //         🟡 Medium
 
 //11. Ek function banao jo check kare number prime hai ya nahi.
+       
+//        function chickPrime(n){
+//        let count = 0;
+
+//         for (let i = 1; i <= n; i++) {
+//             if (n % i === 0) {
+//               count++;
+//             }
+//         }
+
+//         if (count === 2) {
+//           console.log("Prime");
+//         } else {
+//           console.log("Not Prime");
+//         }
+
+//         }
+//         chickPrime(7);
+
 //12. Ek function banao jo string ko reverse kare.
 // Input: hello
 // Output: olleh
+
+        //  function reverString(str){                       
+        //       let chickString = str.split("").reverse().join("");
+        //       return chickString
+        //  }
+        // console.log(reverString("hello")) ;
+
 //13. Ek function banao jo check kare string palindrome hai ya nahi.
+        //  function palindrome (str){                       
+        //       let chickString = str.split("").reverse().join("");
+        //       if(chickString === str){
+        //         console.log(`${str} is a palindrome`)
+        //       }else{
+        //         console.log(`${str} is not a palindrome`)
+        //       }
+        //  }
+        //  palindrome("madam")
+
+
+// let user =  userName.split("").reverse().join("");
+// if(userName === user){
+//     console.log(user +" is Palindrome")
+// }else{
+//     console.log(user +" is not Palindrome")
+// }
+
+
 // Input: madam
 // Output: Palindrome
 //14. Ek function banao jo string mein vowels count kare.
+//      function vowels(str){
+//         let count = 0;
+//         for(let i=0; i<str.length; i++){
+//                 if("aeiou".includes(str[i])){
+//                     count++;
+                    
+//                 }
+              
+//         }
+//         console.log(count);
+//      }
+//     vowels("hello monika");
+
+
 //15. Ek function banao jo array ke maximum element ko find kare.
         // let numbers = [10, 50, 20, 80, 30];
         // const minimum = numbers.reduce((res,curr)=>{
@@ -278,7 +337,7 @@
 
     //    function table(n){
     //     let t = 0;
-    //     for(let i=0; i<=10; i++){
+    //     for(let i=1; i<=10; i++){
     //        t= n*i;
     //        console.log(`5 * ${i} = ${t}`)
 
@@ -302,3 +361,22 @@
     //    }
     //    let val = countDigits(12345);
     //    console.log(val);
+
+
+    
+// 🔴 Thoda Tricky
+//21. Ek function banao jo array mein duplicate elements find kare.
+// let numbers = [1, 2, 3, 2, 4, 3, 5];
+
+// Output:
+
+// 2 3
+//22. Ek function banao jo array ko reverse kare bina .reverse() use kiye.
+//23. Ek function banao jo 2 numbers swap kare.
+//24. Ek function banao jo check kare ki ek number 2 aur 3 dono se divisible hai ya nahi.
+//25. Ek function banao jo multiple parameters receive kare aur unka sum return kare.
+// sum(10, 20, 30, 40)
+
+// Expected:
+
+// 100
