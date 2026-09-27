@@ -131,3 +131,174 @@
 //     return res>curr ? res : curr ;
 // })
 // console.log(greater);
+
+
+// 🟢 Easy
+
+
+//1. Ek function banao jo "Hello World" print kare
+        // function print(){
+        //     console.log("hello World")
+        // }
+        // print();
+
+//2. Ek function banao jo 2 numbers ka sum return kare.
+    //    function add (x,y){
+    //        return x+y;
+    //    }
+    //    let val = add(2,3);
+    //    console.log(val);
+
+
+//3. Ek function banao jo 2 numbers ka subtraction kare.
+        // function sub (x,y){
+        //    console.log(x-y)
+        // }
+        // sub(10,6);
+
+//4. Ek function banao jo number ka square return kare.
+    //     function square(x){
+    //        return x*x;
+    //     }
+    //    let val= square(6);
+    //    console.log(val);
+
+
+//5. Ek function banao jo check kare number even hai ya odd.
+        //   function check(x){
+        //     if(x%2 === 0 ){
+        //         console.log(`${x} is even number`)
+        //     }else{
+        //          console.log(`${x} is odd number`)
+        //     }
+
+        //   }
+        //   check(3);
+
+//6. Ek function banao jo 2 numbers mein se greater number return kare.
+        // function greater(x,y){
+        //       let number = x>y ? x:y
+        //       return number;
+        // }
+        // let val = greater(2,9);
+        // console.log(val);
+
+
+//7. Ek function banao jo name parameter le aur "Hello Monika" print kare.
+        // function print(name){
+        //     console.log("Hello"+ name);
+        // }
+        // print(" Monika")
+      
+//8. Ek function banao jo 1 se 10 tak numbers print kare.
+        // function numPrint(){
+        //     for(let i=1; i<=10; i++){
+        //         console.log(i);
+        //     }
+        // }
+        // numPrint();
+ 
+//9. Ek function banao jo 1 se n tak sum calculate kare.
+        // function sum(n){
+        //     let s = 0;
+        //     for(let i=1; i<=n; i++){
+        //         s+=i;
+                
+        //     }
+        //     console.log(s)
+        // }
+        // sum(5);
+
+//10. Ek function banao jo number ka factorial return kare.
+        // function factorial(n){
+        //     let fact = 1;
+        //     for(let i=1; i<=n; i++){
+        //         fact*=i;
+                
+
+        //     }
+        //     return fact;
+            
+        // }
+        // let val = factorial(5);
+        // console.log(val);
+
+
+//         🟡 Medium
+
+//11. Ek function banao jo check kare number prime hai ya nahi.
+//12. Ek function banao jo string ko reverse kare.
+// Input: hello
+// Output: olleh
+//13. Ek function banao jo check kare string palindrome hai ya nahi.
+// Input: madam
+// Output: Palindrome
+//14. Ek function banao jo string mein vowels count kare.
+//15. Ek function banao jo array ke maximum element ko find kare.
+        // let numbers = [10, 50, 20, 80, 30];
+        // const minimum = numbers.reduce((res,curr)=>{
+        //    return res>curr ? res:curr;
+        //  })
+        // console.log(minimum);
+        
+
+//16. Ek function banao jo array ke minimum element ko find kare.
+    //    let arr = [4,7,9,2,6];
+    //    const minimum = arr.reduce((res,curr)=>{
+    //        return res<curr ? res:curr;
+    //    })
+    //    console.log(minimum);
+
+
+//17. Ek function banao jo array ke saare elements ka sum return kare.
+    //  let arr = [4,6,8];
+    //  const sumElement = arr.reduce((res,curr)=>{
+    //     return res+curr;
+    //  })
+    //  console.log(sumElement);
+
+
+//18. Ek function banao jo array mein even numbers print kare.
+        // let arr =[2,3,4,5,6,7,8,9];
+        // let evenNumber = arr.filter((val)=>{
+        //     return val%2 === 0;
+        // })
+        // console.log(evenNumber);
+
+//19. Ek function banao jo kisi number ka table print kare.
+// Input: 5
+
+// Output:
+// 5
+// 10
+// 15
+// 20
+// ...
+// 50
+
+    //    function table(n){
+    //     let t = 0;
+    //     for(let i=0; i<=10; i++){
+    //        t= n*i;
+    //        console.log(`5 * ${i} = ${t}`)
+
+    //     }
+    //    }   
+    //    table(5);
+
+//20. Ek function banao jo number ke digits count kare.
+// Input: 12345
+// Output: 5
+
+    //    function countDigits (n){
+    //     let str = n.toString();
+    //     let count = 0;
+    //        for(let i=0; i<str.length; i++){
+    //            count++;
+               
+               
+    //        }
+    //        return count;
+    //    }
+    //    let val = countDigits(12345);
+    //    console.log(val);
