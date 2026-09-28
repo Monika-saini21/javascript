@@ -366,17 +366,74 @@
     
 // 🔴 Thoda Tricky
 //21. Ek function banao jo array mein duplicate elements find kare.
+//        let numbers = [1, 2, 3, 2, 4, 3, 5];
+//        const duplicate = numbers.filter((n, ind)=>{
+//              return numbers.indexOf(n) !== ind
+//        })
+//        console.log(duplicate);
+
+
 // let numbers = [1, 2, 3, 2, 4, 3, 5];
 
+// let duplicate = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     for (let j = i + 1; j < numbers.length; j++) {
+
+//         if (numbers[i] === numbers[j]) {
+//             duplicate.push(numbers[i]);
+//         }
+
+//     }
+// }
+
+// console.log(duplicate);
+       
 // Output:
 
 // 2 3
 //22. Ek function banao jo array ko reverse kare bina .reverse() use kiye.
+        // let numbers = [1, 2, 3, 4, 5];
+        // let result = []
+        // function reverse (n){
+        //         for(let i = n.length-1; i>=0; i--){
+        //              result.push(n[i])
+        //         }
+        //         console.log(result)
+        // }
+        // reverse(numbers);
+      
 //23. Ek function banao jo 2 numbers swap kare.
+//       function swap (x,y){
+//         //     let tem = x;
+//         //     x=y;
+//         //     y=tem;
+//        [x,y] =[y,x]
+//        return [x,y]    
+//       }
+//       console.log(swap(3,6));
+
+
 //24. Ek function banao jo check kare ki ek number 2 aur 3 dono se divisible hai ya nahi.
+//      function divisible(n){
+//          if(n%2 === 0 && n%3 ===0){
+//                return `${n} is divisible by both 2 and 3`
+//          }else{
+//                 return `${n} is not  divisible of both 2 and 3`
+//          }
+//      }
+//      console.log(divisible(6));
 //25. Ek function banao jo multiple parameters receive kare aur unka sum return kare.
 // sum(10, 20, 30, 40)
 
 // Expected:
 
 // 100
+// function sum (...num){
+//     let total = 0;
+//     for(let i=0; i<num.length; i++){
+//         total+= num[i]
+//     }
+//     return total;
+// }
+// console.log(sum(10,20,30,40));
