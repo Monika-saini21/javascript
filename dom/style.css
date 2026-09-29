@@ -1,0 +1,15 @@
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: rgb(99, 224, 233);
+    border: 1px solid black;
+    margin: 5px;
+   
+
+}

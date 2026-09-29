@@ -47,7 +47,16 @@
 
 //  🔎 DOM manipulation property 🔎    
 
-// #1. tagName: return tag for element nodes.
-// #2. innerText: return the text content of the element and all its Children.
-// #3. innerHTML: return the plain text or HTML contents in element
-// #4. textContent: return textual content even for hidden element
+    // #1. tagName: return tag for element nodes.
+    // #2. innerText: return the text content of the element and all its Children.
+    // #3. innerHTML: return the plain text or HTML contents in element
+    // #4. textContent: return textual content even for hidden element
+
+
+// firstChild property:
+    // The read-only firstChild property of the Node interface returns the node's first child in the tree, or null if the node has no children.
+    // If the node is a Document, this property returns the first node in the list of its direct children.
+
+    // Note: This property returns any type of node that is the first child of this one. It may be a Text or a Comment node. 
+    // If you want to get the first Element that is a child of another element, consider using Element.firstElementChild.
+
